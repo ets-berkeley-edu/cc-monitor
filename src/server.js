@@ -23,7 +23,6 @@ echo.installHandlers(server, {
   prefix:'/echo'
 });
 server.listen(9997, '0.0.0.0');
-console.log('[%s] Server running', process.pid);
 
 /**
  * Load the different builds

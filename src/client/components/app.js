@@ -21,7 +21,6 @@ export default class App extends React.Component {
         return;
       }
       var data = JSON.parse(e.data);
-      console.log('data:', data);
       this.setState(data);
     }.bind(this);
   }

@@ -34,7 +34,6 @@ export default class ConfigItem extends React.Component {
 
   generateEnvHeaders() {
     var headers = [];
-    console.log(Object.keys(this.props.data.details)[0])
     for (var envName in this.props.data.details[Object.keys(this.props.data.details)[0]]) {
       headers.push(<th key={headers.length}>{envName}</th>);
     }
