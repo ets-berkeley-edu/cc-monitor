@@ -1,0 +1,8 @@
+@mixin breakpoint($class) {
+  @if $class == sm {
+    @media handheld, only screen and (max-width: 650px), only screen and (max-device-width: 650px) { @content; }
+  }
+  @if $class == md {
+    @media handheld, only screen and (max-width: 1000px), only screen and (max-device-width: 651px) { @content; }
+  }
+}

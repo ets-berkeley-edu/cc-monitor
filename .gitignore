@@ -13,3 +13,7 @@
 
 # Npm log
 npm-debug.log
+
+# Env
+#######
+.env
